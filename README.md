@@ -1,7 +1,6 @@
 # Order-Tracker-and-Delay-analysis
 Order tracker and delay analysis in Excel: KPIs, pivot tables and a dashboard
 
-# Order Tracker & Delay Analysis
 
 An Excel project that tracks project orders, flags delivery risks and analyses the causes of delay, built to support the daily follow-up work of an order or customer coordinator.
 
@@ -32,11 +31,11 @@ Project orders pass through Sales, Production, Supply Chain, Dispatch and Wareho
 | Column | Logic |
 |---|---|
 | Current Promise Date | Revised Date if present, otherwise Committed Date |
-| Date Changed? | Yes if a Revised Date exists |
+| Date Changed | Yes if a Revised Date exists |
 | Date Pushed | Revised Date minus Committed Date (days) |
-| Overdue? | Not delivered **and** report date is after the Current Promise Date |
-| Stagnant? | Not delivered **and** no update for 7 or more days |
-| On-Time? | Delivered on or before the Current Promise Date |
+| Overdue | Not delivered **and** report date is after the Current Promise Date |
+| Stagnant | Not delivered **and** no update for 7 or more days |
+| On-Time | Delivered on or before the Current Promise Date |
 
 **KPIs:** open orders, on-time delivery %, overdue orders, stagnant orders, orders with a revised date
 
